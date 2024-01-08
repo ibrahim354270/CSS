@@ -1,0 +1,22 @@
+h1{
+    color: red;
+    text-align: center;
+    background-color: greenyellow;
+}
+p{
+    color: darkred;
+    background-color: hotpink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h2{
+    color: beige;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+a{
+    color: color-mix(in srgb, color percentage, color percentage);
+    text-decoration: none;
+    /* bu kod ile link in altındaki çizgiyi iptal ettik */
+}
