@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+}
+
+
+a:link{
+    color: orange;
+    /* ziyaret edilmemiş site link*/
+}
+
+a:visited{
+    color: crimson;
+    /* ziyaret edilmiş site link*/
+}
+
+a.emojilink:hover{
+
+    background-color: blue;
+    color: yellow;
+
+}
+
+.title:hover{
+    cursor: pointer;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+a.link4:active{
+    color: fuchsia;
+}
