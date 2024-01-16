@@ -1,17 +1,20 @@
 div.container{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:flex-start;
     height: 100vh;
     gap:1rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    align-content: flex-end;
+ 
 }
 .container > div{
     width: 100px;
     text-align: center;
     padding: 20px;
-    height: 50vh;
+    height: 15vh;
 }
 div.container div:nth-child(1){
     background-color: blueviolet;
