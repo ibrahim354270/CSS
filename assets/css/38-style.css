@@ -1,0 +1,36 @@
+div.input-group{
+    margin: 10rem;
+    background-color: burlywood;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    position: relative;
+}
+
+div.input-group input{
+   background: none;
+   border: none;
+   outline: none;
+   color: aliceblue;
+   padding: 0 10px;
+}
+
+div.input-group button{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(gold, blue);
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+}
