@@ -1,0 +1,44 @@
+div.title{
+    text-align: center;
+    margin: 3rem;
+    color: blue;
+    font-size: 2.5rem;
+
+}
+
+div.title-1{
+    text-shadow: 3px 4px 5px red;
+}
+
+div.title-2{
+    text-shadow: 3px 4px 3px green, 6px 7px 3px orange;
+}
+
+div.title-3{
+    box-shadow: 13px 24px 3px purple;
+}
+
+div.title-4{
+    box-shadow: 13px 24px 3px pink, 0 0 7px purple;
+}
+
+div.title-5{
+    box-shadow: 4px 2px 3px pink, 0px 0px 13px crimson;
+}
+
+div.title-6{
+    background-color: orangered;
+    color: bisque;
+    box-shadow: 4px 2px 6px black;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+div.title-6:hover{
+    background-color: aqua;
+    cursor: pointer;
+    text-shadow: 3px 5px 5px white;
+}
